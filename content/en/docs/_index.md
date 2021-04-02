@@ -6,7 +6,7 @@ menu:
   main:
     weight: 20
 ---
-Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next steps would be then to format it so to create a good UX/UI to navigate through it eg collapsible or dynamic based on few options eg what IaaS/Cloud
+Scratch pad to gather all Tanzu Standard public docs in a one stop page.
 
 - [Choose your destination!](#choose-your-destination)
   - [vSphere 7 - vSphere with Tanzu](#vsphere-7---vsphere-with-tanzu)
