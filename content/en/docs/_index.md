@@ -15,8 +15,6 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
   - [Azure](#azure)
   - [VMware Cloud on AWS (VMC)](#vmware-cloud-on-aws-vmc)
   - [Azure VMware Solution (AVS)](#azure-vmware-solution-avs)
-  - [VMC on Dell EMC](#vmc-on-dell-emc)
-  - [GCP](#gcp)
 - [General](#general)
   - [vSphere with Tanzu](#vsphere-with-tanzu)
   - [Tanzu Kubernetes Grid](#tanzu-kubernetes-grid)
@@ -24,7 +22,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
 
 # Choose your destination!
 
--
+
 ## vSphere 7 - vSphere with Tanzu
 
   - Pre-install steps
@@ -53,7 +51,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
   - Next steps
     - [Deploy extensions](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-30C87DC5-51B1-4696-A624-CEA9CF54B63A.html) (optional)
     - [Deploy workloads](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-E217C538-2241-4FD9-9D67-6A54E97CA800.html)
--
+
 ## vSphere 6.7 (and vSphere 7)
 
   - Pre-install steps
@@ -72,7 +70,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
     - Using Tanzu Mission Control
   - Next steps
     - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
--
+
 ## AWS
 
   - Pre-install steps
@@ -88,7 +86,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
     - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
--
+
 ## Azure
 
   - Pre-install steps
@@ -104,7 +102,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
     - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
--
+
 ## VMware Cloud on AWS (VMC)
 
   - Pre-install steps
@@ -121,7 +119,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
     - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
--
+
 ## Azure VMware Solution (AVS)
 
   - Pre-install steps
@@ -137,14 +135,6 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next st
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
     - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
--
-## VMC on Dell EMC
-
-  - Currently not supported. [Awaiting validation](https://jira.eng.vmware.com/browse/TKG-3606).
--
-## GCP
-
-  - Currently not supported. [Planned for Dakar/1.4](https://jira.eng.vmware.com/browse/TKG-334)
 
 # General
 
