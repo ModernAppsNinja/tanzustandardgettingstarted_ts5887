@@ -157,10 +157,10 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "Google Group Mailing List"
-	url = "https://groups.google.com/forum/#!forum/modernappsninja/join"
-	icon = "fa fa-envelope"
-        desc = "Discussion and help from your fellow users"
+	# name = "Google Group Mailing List"
+	# url = "https://groups.google.com/forum/#!forum/modernappsninja/join"
+	# icon = "fa fa-envelope"
+        # desc = "Discussion and help from your fellow users"
 [[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/modernappsninja"
