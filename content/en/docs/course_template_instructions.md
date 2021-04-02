@@ -1,33 +1,168 @@
 ---
-title: "New Course Template Instructions"
+title: "Tanzu Standard - Getting Started Guide"
 date: 2020-10-12T18:34:25-07:00
 weight: 905
 # This document provides instructions for the central course repository template
 # When the template is used to create a new course, this document is replaced by /static/admin/assets/course_template_instructions.md.template
 ---
 
-### Welcome to the ModernApps Ninja New Course Template. 
+Scratch pad to gather all Tanzu Standard public docs in a one stop page. Next steps would be then to format it so to create a good UX/UI to navigate through it eg collapsible or dynamic based on few options eg what IaaS/Cloud
 
-#### Creating a new course
+- [Choose your destination!](#choose-your-destination)
+  - [vSphere 7 - vSphere with Tanzu](#vsphere-7---vsphere-with-tanzu)
+  - [vSphere 6.7 (and vSphere 7)](#vsphere-67-and-vsphere-7)
+  - [AWS](#aws)
+  - [Azure](#azure)
+  - [VMware Cloud on AWS (VMC)](#vmware-cloud-on-aws-vmc)
+  - [Azure VMware Solution (AVS)](#azure-vmware-solution-avs)
+  - [VMC on Dell EMC](#vmc-on-dell-emc)
+  - [GCP](#gcp)
+- [General](#general)
+  - [vSphere with Tanzu](#vsphere-with-tanzu)
+  - [Tanzu Kubernetes Grid](#tanzu-kubernetes-grid)
+  - [Tanzu Mission Control](#tanzu-mission-control)
 
-To create a new course: 
-- You must be a member of the ModernAppsNinja GitHub organization
-- Navigate to the [actions tab of the modernappsninja.github.io repository](https://github.com/ModernAppsNinja/modernappsninja.github.io/actions)
-- Initiate a `create a new course workflow` action
-- A New course repository will be created with the initial scaffolding setup, based on a copy of this repository
-- Follow these instructions to add your content and set up the course catalog card, tests and the completion certificate
-- Once you have setup the new course content, Initiate a "Publish this course" workflow from the new course template, and your new course will be published!
+# Choose your destination!
 
-The github user account that initiates the course creation workflow request will be given maintainer persmissions on the new course repository, and can push or approve merges to content during course development. Once the course is ready to be published, branch protection settings will be added that will require at least two maintainers to approve changes.
+-
+## vSphere 7 - vSphere with Tanzu
 
-Every section in this repository after the New Course Template instructions are direct copies of an early version of the vSphere with Tanzu 101 course. 
+  - Pre-install steps
+    - [Prepare env](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-EE236215-DA4D-4579-8BEB-A693D1882C77.html)
+    - Networking (choose one)
+      - Use NSX-T Data Center
+        - [Pre-reqs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-B1388E77-2EEC-41E2-8681-5AE549D50C77.html#GUID-B1388E77-2EEC-41E2-8681-5AE549D50C77)
+        - [Install and configure](https://docs-staging.vmware.com/en/draft/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-8D0E905F-9ABB-4CFB-A206-C027F847FAAC.html#GUID-8D0E905F-9ABB-4CFB-A206-C027F847FAAC)
+      - Use vSphere vDS networking with NSX Advanced Load Balancer (AVI)
+        - [Pre-reqs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-7FF30A74-DDDD-4231-AAAE-0A92828B93CD.html#GUID-7FF30A74-DDDD-4231-AAAE-0A92828B93CD)
+        - [Install and configure](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-CBA041AB-DC1D-4EEC-8047-184F2CF2FE0F.html#GUID-CBA041AB-DC1D-4EEC-8047-184F2CF2FE0F)
+      - Use vSphere vDS networking with HAProxy
+        - [Pre-reqs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-C86B9028-2701-40FE-BA05-519486E010F4.html)
+        - [Install and configure](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-5673269F-C147-485B-8706-65E4A87EB7F0.html)
+  - Enable Workload Management (choose one)
+    - [Using vSphere Networking](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-8D7D292B-43E9-4CB8-9E20-E4039B80BF9B.html)
+    - [Using NSX-T Data Center Networking](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-287138F0-1FFD-4774-BBB9-A1FAB932D1C4.html)
+  - Post enable steps
+    - [Create content library](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-209AAB32-B2ED-4CDF-AE62-B0FAD9D34C2F.html)
+    - [Create vSphere Namespace](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-1544C9FE-0B23-434E-B823-C59EFC2F7309.html)
+    - [Register with Tanzu Mission Control](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-ED4417DC-592C-454A-8292-97F93BD76957.html)
+  - Deploy Tanzu Kubernetes Clusters
+    - [Using kubectl](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-2597788E-2FA4-420E-B9BA-9423F8F7FD9F.html)
+    - [Using Tanzu CLI](https://docs-staging.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-connect-vsphere7.html)
+    - [Using Tanzu Mission Control](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-0A1AEC6A-3E5C-424F-8EBC-1DDFC14D2688.html)
+  - Next steps
+    - [Deploy extensions](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-30C87DC5-51B1-4696-A624-CEA9CF54B63A.html) (optional)
+    - [Deploy workloads](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-E217C538-2241-4FD9-9D67-6A54E97CA800.html)
+-
+## vSphere 6.7 (and vSphere 7)
 
-You may use the following sections and pages in this template as a reference. Modify, delete or add pages to customize the content in the newly created course repository with your desired course materials.
+  - Pre-install steps
+    - [Prepare env](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-vsphere.html)
+    - [Install VMware Advanced Load Balancer](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-install-nsx-adv-lb.html)
+    - [Install Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-install-cli.html)
+    - [Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-enabling-id-mgmt.html) (optional but recommended)
+  - Deploy Management Cluster
+    - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
+    - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
+  - Post-install steps
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+    - [Register management cluster with Tanzu Mission Control](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-register_tmc.html)
+  - Deploy Tanzu Kubernetes Clusters
+    - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
+    - Using Tanzu Mission Control
+  - Next steps
+    - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
+-
+## AWS
 
-You can find additional details on how to set up tests and completion certificates on the following pages in this section.
+  - Pre-install steps
+    - [Prepare env](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-aws.html)
+    - [Install Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-install-cli.html)
+    - [Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-enabling-id-mgmt.html) (optional but recommended)
+  - Deploy Management Cluster
+    - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
+    - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
+  - Post-install steps
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+  - Deploy Tanzu Kubernetes Clusters
+    - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
+  - Next steps
+    - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
+-
+## Azure
 
-This course template is based on Google's Docsy template, which provides detailed instructions you can use as a reference for modifying this template. Detailed instructions for the Docsy template can be found at [https://docsy.dev](https://docsy.dev).
+  - Pre-install steps
+    - [Prepare env](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-azure.html)
+    - [Install Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-install-cli.html)
+    - [Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-enabling-id-mgmt.html) (optional but recommended)
+  - Deploy Management Cluster
+    - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
+    - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
+  - Post-install steps
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+  - Deploy Tanzu Kubernetes Clusters
+    - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
+  - Next steps
+    - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
+-
+## VMware Cloud on AWS (VMC)
 
-Once you have completed preparing your desired content and have verified it is ready for live publication, please go to the actions tab of the github repository for this course and initiate the `Publish This Course` workflow. The workflow will add branch protection settings, and submit a pull request that, when approved, will display the course in the modernapps.ninja course catalog.
+  - Pre-install steps
+    - [Prepare env](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-prepare-maas.html#preparing-vmware-cloud-on-aws-0)
+    - Install VMware Advanced Load Balancer (Doc not available yet)
+    - [Install Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-install-cli.html)
+    - [Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-enabling-id-mgmt.html) (optional but recommended)
+  - Deploy Management Cluster
+    - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
+    - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
+  - Post-install steps
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+  - Deploy Tanzu Kubernetes Clusters
+    - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
+  - Next steps
+    - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
+-
+## Azure VMware Solution (AVS)
 
-If you have any questions or need any assistance, please post a message to [new course discussion board](https://github.com/ModernAppsNinja/modernappsninja.github.io/discussions) and mention the `@modernappsninja/maintainers` team in the body of your message. Or you can also open an issue ticket on the [https://github.com/modernappsninja/modernappsninja.gitub.io](https://github.com/modernappsninja/modernappsninja.gitub.io) repository.
+  - Pre-install steps
+    - [Prepare env](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-prepare-maas.html#preparing-azure-vmware-solution-on-microsoft-azure-2)
+    - [Install Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-install-cli.html)
+    - [Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-enabling-id-mgmt.html) (optional but recommended)
+  - Deploy Management Cluster
+    - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
+    - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
+  - Post-install steps
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+  - Deploy Tanzu Kubernetes Clusters
+    - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
+  - Next steps
+    - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
+-
+## VMC on Dell EMC
+
+  - Currently not supported. [Awaiting validation](https://jira.eng.vmware.com/browse/TKG-3606).
+-
+## GCP
+
+  - Currently not supported. [Planned for Dakar/1.4](https://jira.eng.vmware.com/browse/TKG-334)
+
+# General
+
+## vSphere with Tanzu
+
+- [Release Notes](https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-7-vsphere-with-tanzu-release-notes.html)
+- [Install Docs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-152BE7D2-E227-4DAA-B527-557B564D9718.html)
+- [Download](https://my.vmware.com/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0)
+- [Getting started guide](https://core.vmware.com/resource/vsphere-tanzu-quick-start-guide-v1a)
+- [POC guide](https://core.vmware.com/resource/tanzu-proof-concept-guide)
+
+## Tanzu Kubernetes Grid
+
+- [Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.2/rn/VMware-Tanzu-Kubernetes-Grid-12-Release-Notes.html)
+- [Install Docs](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.2/vmware-tanzu-kubernetes-grid-12/GUID-index.html)
+- [Download](https://www.vmware.com/go/get-tkg)
+
+## Tanzu Mission Control
+
+- [Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/rn/VMware-Tanzu-Mission-Control-Release-Notes.html)
+- [Docs](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-B3349CE8-C98D-4453-9EC8-536A72239F8D.html)
