@@ -19,8 +19,6 @@ menu:
   - [Tanzu Kubernetes Grid](#tanzu-kubernetes-grid)
   - [Tanzu Mission Control](#tanzu-mission-control)
 
-# Choose your stabrting point!
-
 
 ## vSphere 7 - vSphere with Tanzu
 
