@@ -6,9 +6,8 @@ menu:
   main:
     weight: 20
 ---
-Scratch pad to gather all Tanzu Standard public docs in a one stop page.
 
-- [Choose your destination!](#choose-your-destination)
+- [Choose your starting point!](#choose-your-starting-point)
   - [vSphere 7 - vSphere with Tanzu](#vsphere-7---vsphere-with-tanzu)
   - [vSphere 6.7 (and vSphere 7)](#vsphere-67-and-vsphere-7)
   - [AWS](#aws)
@@ -20,7 +19,7 @@ Scratch pad to gather all Tanzu Standard public docs in a one stop page.
   - [Tanzu Kubernetes Grid](#tanzu-kubernetes-grid)
   - [Tanzu Mission Control](#tanzu-mission-control)
 
-# Choose your destination!
+# Choose your stabrting point!
 
 
 ## vSphere 7 - vSphere with Tanzu
