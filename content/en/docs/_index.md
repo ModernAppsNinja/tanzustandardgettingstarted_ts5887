@@ -145,11 +145,11 @@ menu:
 
 ## Tanzu Kubernetes Grid
 
-- [Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.2/rn/VMware-Tanzu-Kubernetes-Grid-12-Release-Notes.html)
-- [Install Docs](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.2/vmware-tanzu-kubernetes-grid-12/GUID-index.html)
+- [Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/rn/VMware-Tanzu-Kubernetes-Grid-13-Release-Notes.html)
+- [Install Docs](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/index.html)
 - [Download](https://www.vmware.com/go/get-tkg)
 
 ## Tanzu Mission Control
 
 - [Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/rn/VMware-Tanzu-Mission-Control-Release-Notes.html)
-- [Docs](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-B3349CE8-C98D-4453-9EC8-536A72239F8D.html)
+- [Using VMware Tanzu Mission Control](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-B3349CE8-C98D-4453-9EC8-536A72239F8D.html)
