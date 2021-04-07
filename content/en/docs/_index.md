@@ -49,7 +49,7 @@ menu:
     - [Deploy extensions](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-30C87DC5-51B1-4696-A624-CEA9CF54B63A.html) (optional)
     - [Deploy workloads](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-E217C538-2241-4FD9-9D67-6A54E97CA800.html)
 
-## vSphere 6.7 (and vSphere 7)
+## vSphere 6.7U3 (and vSphere 7)
 
   - Pre-install steps
     - [Prepare env](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-vsphere.html)
@@ -60,7 +60,7 @@ menu:
     - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
     - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
   - Post-install steps
-    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html) (optional but recommended)
     - [Register management cluster with Tanzu Mission Control](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-register_tmc.html)
   - Deploy Tanzu Kubernetes Clusters
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
@@ -78,7 +78,7 @@ menu:
     - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
     - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
   - Post-install steps
-    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html) (optional but recommended)
   - Deploy Tanzu Kubernetes Clusters
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
@@ -94,7 +94,7 @@ menu:
     - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
     - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
   - Post-install steps
-    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html) (optional but recommended)
   - Deploy Tanzu Kubernetes Clusters
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
@@ -111,7 +111,7 @@ menu:
     - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
     - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
   - Post-install steps
-    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html) (optional but recommended)
   - Deploy Tanzu Kubernetes Clusters
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
@@ -127,21 +127,19 @@ menu:
     - [Using Installer interface](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-ui.html), or
     - [Using Tanzu CLI and a config file](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-deploy-cli.html)
   - Post-install steps
-    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html)(optional but recommended)
+    - [Configure Identity Management](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-mgmt-clusters-configure-id-mgmt.html) (optional but recommended)
   - Deploy Tanzu Kubernetes Clusters
     - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-deploy.html)
   - Next steps
     - [Deploy extensions and shared services](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-extensions-index.html) (optional)
 
-# General
+# General Product Resources
 
 ## vSphere with Tanzu
 
 - [Release Notes](https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-7-vsphere-with-tanzu-release-notes.html)
 - [Install Docs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-152BE7D2-E227-4DAA-B527-557B564D9718.html)
 - [Download](https://my.vmware.com/web/vmware/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0)
-- [Getting started guide](https://core.vmware.com/resource/vsphere-tanzu-quick-start-guide-v1a)
-- [POC guide](https://core.vmware.com/resource/tanzu-proof-concept-guide)
 
 ## Tanzu Kubernetes Grid
 
@@ -152,4 +150,4 @@ menu:
 ## Tanzu Mission Control
 
 - [Release Notes](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/rn/VMware-Tanzu-Mission-Control-Release-Notes.html)
-- [Using VMware Tanzu Mission Control](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-B3349CE8-C98D-4453-9EC8-536A72239F8D.html)
+- [Docs](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-B3349CE8-C98D-4453-9EC8-536A72239F8D.html)
