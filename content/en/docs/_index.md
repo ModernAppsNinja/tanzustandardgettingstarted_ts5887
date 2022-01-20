@@ -27,7 +27,7 @@ menu:
     - Networking (choose one)
       - Use NSX-T Data Center
         - [Pre-reqs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-B1388E77-2EEC-41E2-8681-5AE549D50C77.html#GUID-B1388E77-2EEC-41E2-8681-5AE549D50C77)
-        - [Install and configure](https://docs-staging.vmware.com/en/draft/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-8D0E905F-9ABB-4CFB-A206-C027F847FAAC.html#GUID-8D0E905F-9ABB-4CFB-A206-C027F847FAAC)
+        - [Install and configure](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-8D0E905F-9ABB-4CFB-A206-C027F847FAAC.html#GUID-8D0E905F-9ABB-4CFB-A206-C027F847FAAC)
       - Use vSphere vDS networking with NSX Advanced Load Balancer (AVI)
         - [Pre-reqs](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-7FF30A74-DDDD-4231-AAAE-0A92828B93CD.html#GUID-7FF30A74-DDDD-4231-AAAE-0A92828B93CD)
         - [Install and configure](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-CBA041AB-DC1D-4EEC-8047-184F2CF2FE0F.html#GUID-CBA041AB-DC1D-4EEC-8047-184F2CF2FE0F)
@@ -43,7 +43,7 @@ menu:
     - [Register with Tanzu Mission Control](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-ED4417DC-592C-454A-8292-97F93BD76957.html)
   - Deploy Tanzu Kubernetes Clusters
     - [Using kubectl](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-2597788E-2FA4-420E-B9BA-9423F8F7FD9F.html)
-    - [Using Tanzu CLI](https://docs-staging.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-connect-vsphere7.html)
+    - [Using Tanzu CLI](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.3/vmware-tanzu-kubernetes-grid-13/GUID-tanzu-k8s-clusters-connect-vsphere7.html)
     - [Using Tanzu Mission Control](https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/services/tanzumc-using/GUID-0A1AEC6A-3E5C-424F-8EBC-1DDFC14D2688.html)
   - Next steps
     - [Deploy extensions](https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-30C87DC5-51B1-4696-A624-CEA9CF54B63A.html) (optional)
