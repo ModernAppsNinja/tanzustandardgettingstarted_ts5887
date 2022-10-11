@@ -1,6 +1,6 @@
 ---
-title: "Tanzu Standard Getting Started Guide"
-linkTitle: "Tanzu Standard Getting Started Guide"
+title: "Tanzu Kubernetes Grid and Tanzu Mission Control Getting Started Guide"
+linkTitle: "Tanzu Kubernetes Grid and Tanzu Mission Control Getting Started Guide"
 weight: 20
 menu:
   main:
